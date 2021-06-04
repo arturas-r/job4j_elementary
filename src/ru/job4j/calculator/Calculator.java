@@ -8,8 +8,8 @@ public class Calculator {
 
         System.out.println(result);
 
-        one = 10;
-        two = 11;
+        one = 1;
+        two = 2;
         result = one + two;
         System.out.println(result);
 
@@ -53,30 +53,5 @@ public class Calculator {
 
     }
 
-}
- */
-
-/*
-// Code from 4.1. Аргументы [#295521]
-package ru.job4j.calculator;
-
-public class ArgMethod {
-
-    public static void hello(String name) {
-        System.out.println("Hello, " + name);
-    }
-
-    public static void main(String[] args) {
-        String name = "Petr Arsentev";
-        int age = 33;
-
-        ArgMethod.hello(name);
-
-        ArgMethod.hello(name);
-
-        ArgMethod.hello(name);
-
-        ArgMethod.hello(name);
-    }
 }
  */

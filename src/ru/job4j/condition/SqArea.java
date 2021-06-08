@@ -9,9 +9,9 @@ public class SqArea {
     }
     public static void main (String[] args){
         // ради эксперимента заменил данные цифры на другие
-        double result = SqArea.square(9, 4.3);
+        double result = SqArea.square(6, 2);
         //перефразировал предложение и добавил знак \n раздела на новую линию
-        System.out.println(" If perimeter - P = 9\nand lenghth more than height K = 4.3 times\nthen area of rectangle S = " + String.format("%.3f", result));
+        System.out.println(" If perimeter - P = 6\nand the lenghth more than the height K = 2 times\nthen area of rectangle S = " + String.format("%.3f", result));
         /* конвертировал переменную result в String,
         что бы попробовать округлить результат до трёх знаков после запятой */
     }

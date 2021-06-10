@@ -2,12 +2,13 @@ package ru.job4j.condition;
 
 public class SqArea {
     public static double square(int p, double k) {
-        double h = p/(2*(k+1));
+        double h = p / (2 * (k + 1));
         // Idea указала что переменная L не используется, поэтому убрал её.
         // return (h * k * h);
         return (Math.pow(h, 2) * k);
     }
-    public static void main (String[] args){
+
+    public static void main(String[] args) {
         // ради эксперимента заменил данные цифры на другие
         double result = SqArea.square(6, 2);
         //перефразировал предложение и добавил знак \n раздела на новую линию

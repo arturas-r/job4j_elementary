@@ -13,7 +13,6 @@ public class Calculator {
         result = one + two;
         System.out.println(result);
 
-
         int six = 6;
         int four = 4;
         int five = 5;
@@ -25,7 +24,6 @@ public class Calculator {
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
-
     }
 }
 /*

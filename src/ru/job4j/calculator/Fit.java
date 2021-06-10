@@ -1,17 +1,21 @@
 package ru.job4j.calculator;
 
 public class Fit {
-    public static double manWeight (short manHeight) {
+    public static double manWeight(short manHeight) {
+
         return ((manHeight - 100) * 1.15);
     }
-    public static double womanWeight (short womanHeight) {
+
+    public static double womanWeight(short womanHeight) {
+
         return ((womanHeight - 110) * 1.15);
     }
-    public static void main (String[] args) {
+
+    public static void main(String[] args) {
 
         short manHeight = 178;
         double man = Fit.manWeight(manHeight);
-        System.out.println ("Man 178 is " + man);
+        System.out.println("Man 178 is " + man);
 
         /* Пробовал разные способы,
         что бы вес бы распечатывался цифрой

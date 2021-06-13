@@ -35,23 +35,25 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        // ради эксперимента заменил 140 руб на 420
-        int euro = Converter.rubleToEuro(420);
-        System.out.println("420 rubles equal " + euro +  " euros.");
+        // ради эксперимента заменил 140 руб на 840
+        // изменил программку так что надо ввести переменную rubles % 7 || 6 = 0  один раз и всё вроде должно работать
+        int rubles = 1260;
+        int euro = Converter.rubleToEuro(rubles);
+        System.out.println(rubles + " rubles equal " + euro +  " euros.");
 
-        int inEuro = 420;
-        int expectedEuro = 6;
+        int inEuro = rubles;
+        int expectedEuro = euro;
         int outEuro = Converter.rubleToEuro(inEuro);
         boolean passedEuro = expectedEuro == outEuro;
-        System.out.println("420 rubles equal 6. Test result : " + passedEuro);
+        System.out.println(inEuro + " rubles equal " + expectedEuro + ". Test result : " + passedEuro);
 
-        int dollar = Converter.rubleToDollar(420);
-        System.out.println("420 rubles equal " + dollar + " dollars.");
+        int dollar = Converter.rubleToDollar(rubles);
+        System.out.println(rubles + " rubles equal " + dollar + " dollars.");
 
-        int inDollar = 420;
-        int expectedDollar = 7;
+        int inDollar = rubles;
+        int expectedDollar = dollar;
         int outDollar = Converter.rubleToDollar(inDollar);
         boolean passedDollar = expectedDollar == outDollar;
-        System.out.println("420 rubles equal 7. Test result : " + passedDollar);
+        System.out.println(inDollar + " rubles equal " + expectedDollar + ". Test result : " + passedDollar);
     }
 }

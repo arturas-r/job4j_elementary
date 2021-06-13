@@ -2,7 +2,7 @@ package ru.job4j.converter;
 
 public class Converter {
 
-   // old code
+    // old code
     /* public static float rubleToEuro(float value) {
         //заменил int на float,
         // для того что бы программка показывала дробные числа

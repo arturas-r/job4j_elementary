@@ -35,8 +35,8 @@ public class Converter {
     }
 
     public static void main(String[] args) {
-        // ради эксперимента заменил 140 руб на 840
-        // изменил программку так что надо ввести переменную rubles % 7 || 6 = 0  один раз и всё вроде должно работать
+        // ради эксперимента заменил 140 руб на int rubles
+        // изменил программку так что надо ввести переменную rubles % 7 && 6 = 0  один раз и всё вроде должно работать
         int rubles = 1260;
         int euro = Converter.rubleToEuro(rubles);
         System.out.println(rubles + " rubles equal " + euro +  " euros.");
